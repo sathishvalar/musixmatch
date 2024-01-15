@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musix</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <img class="image" src="data:image/png;base64,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">
+            </div>
+            <div>
+                <ul>
+                    <li><a class="list" style="text-decoration: none;" href="https://about.musixmatch.com/pro?utm_source=musixmatch_website&utm_campaign=pro_announcement&utm_content=header_nav">Musixmatch</a></li>
+                    <button class="pro">PRO</button>
+                    <li><a class="list" style="text-decoration: none;" href="https://www.musixmatch.com/explore">Top lyrics</a></li>
+                    <li><a class="list" style="text-decoration: none;" href="#">Community</a></li>
+                    <li><a class="list" style="text-decoration: none;" href="#">Acadamy</a></li>
+                    <li><a class="list" style="text-decoration: none;" href="#">Podcasts</a></li>
+                    <button class="sign">Sign in</button>
+                    
+                </ul>
+            </div>
+            </nav>
+        </header>
+        <h1 class="title">Enhancing the experience of music worldwide.</h1>
+
+        <main class="main" >
+            <div class="sec-1">
+                <a href="#"><img src="https://assets-global.website-files.com/5c5b0a009abbac199b244792/5f984e91f4e9ee9fb64eb2f0_Oval.png"></a>
+                
+                <ul >
+                    
+                    <li class="re">For Partners</li>
+                    <li>All you need to take your<br>service to the next level.</li>
+                </ul>
+            
+                </div>
+            <div class="sec-2">
+                <a href="#"><img src="https://assets-global.website-files.com/5c5b0a009abbac199b244792/5f984e9265aa42a3ddde5a4d_Oval2.png" style="width: 60px;"></a>
+                <ul>
+                <li class="re">For Artists</li>
+                <li>full control of your music<br>catalog and profile.</li>
+            </ul>
+
+            </div>
+            <div class="sec-3">
+                <a href="#"><img src="https://assets-global.website-files.com/5c5b0a009abbac199b244792/5f984e92cdb2325035dfbf29_Oval3.png" style="width: 60px;"></a>
+                
+                <ul>
+                    <li class="re">For Publishers</li>
+                <li>Distribute your lyrics globally<br>and get paid royalties.</li>
+            </ul>
+
+            </div>
+            <div class="sec-4">
+                
+                <a href="#"><img src="https://assets-global.website-files.com/5c5b0a009abbac199b244792/640f23636093c92e321f80bc_Podcasters-circle.png"style="width: 60px;"></a>
+                <ul>
+                <li class="re">For Podcasters</li>
+                <li>your podcasts and<br>get found.</li>
+                </ul>
+                
+            </div>
+        
+        
+        </main>
+        <div class="scr">
+            <img src="Screenshot 2024-01-10 111007.png" style="width: 1100px; height: 500px; margin-left: 180px; margin-right: -100px; margin-bottom: 400px;">
+        </div>
+        <button></button>
+        <div class="screen">
+            <img src="Screenshot 2024-01-10 111008.png" style="width: 250px; border-radius: 10px;">
+            <img src="sc1.png" style="width: 250px; border-radius: 10px;">
+            <img src="sc2.png" style="width: 250px; border-radius: 10px;">
+            <img src="sc3.png" style="width: 250px;border-radius: 10px;">
+        </div>
+        <button class="but">See more</button><br><br>
+        <p class="p1">We work with world-renowned businesses from the music industry to bring your favorite music to life.</p>
+        <main>
+        <div class="ho">
+            <ul class="t1">
+                
+                <li><img src="https://assets-global.website-files.com/5c5b0a009abbac199b244792/5f7c7dddd7c5e3db91eec99c_Spotify_330x140.png" style="width: 150px;"></li>
+                <li><img src="https://assets-global.website-files.com/5c5b0a009abbac199b244792/5f7c7df0b6e7e675ff3bef87_AppleMusic_330x140.png" style="width: 150px;"></li>
+                <li><img src="https://assets-global.website-files.com/5c5b0a009abbac199b244792/5f7c7df0a8b6d5be7429b1d3_Amazon__330x140.png" style="width: 150px;"></li>
+                <li><img src="https://assets-global.website-files.com/5c5b0a009abbac199b244792/5f7c7df04018d36d25e27ee5_Shazam__330x140.png" style="width: 150px;"></li>
+                <li><img src="https://assets-global.website-files.com/5c5b0a009abbac199b244792/5f7c7df00cfed6872d1f6eb5_Google_330x140.png" style="width: 150px;"></li>
+                <li><img src="https://assets-global.website-files.com/5c5b0a009abbac199b244792/5fa3d96bc5175b792239520d_Instagram_330x140.png" style="width: 150px;"></li>
+                </ul>
+        
+            
+                <ul class="t2">
+                    
+                <li><img src="https://assets-global.website-files.com/5c5b0a009abbac199b244792/601bb6b24e13cb5dbe3e7588_Tidal_330x140.png" style="width: 150px;"></li>
+                <li><img src="https://assets-global.website-files.com/5c5b0a009abbac199b244792/601bb6b2f8e1af85ac001a87_Vevo_330x140.png" style="width: 150px;"></li>
+                <li><img src="https://assets-global.website-files.com/5c5b0a009abbac199b244792/601bb6b2dcdf310cb1fecee1_Bing_330x140.png"style="width: 150px;"></li>
+            
+                </ul>
+        </div>
+        <h1 class="mak">Making music better, together</h1><br><br><br>
+
+    </main>
+    <div>
+        <img src="sc5.png" style="width: 1100px; margin-left: 150px; border-radius: 10px;"><br><br><br>
+        <img src="sc6.png" style="width: 1100px; margin-left: 150px; border-radius: 10px;"><br><br><br>
+        <img src="sc7.png" style="width: 1100px; margin-left: 150px; border-radius: 10px;"><br><br><br>
+        <img src="sc8.png" style="width: 1100px; margin-left: 150px; border-radius: 10px;"><br><br><br>
+        <img src="sc9.png" style="width: 1100px; margin-left: 150px; border-radius: 10px;"><br><br><br>
+        
+    </div>
+    
+        <h1 class="mak">The latest news from Musixmatch</h1><br><br><br>
+        <div class="group">
+            
+       
+       <img class="tpg" src="sc11.png" style=" border-radius: 30px; height: 200px;margin-left: 150px;">
+       <img src="sc10.png"style="width: 350px; margin-right: 10px;margin-left: 10px;">
+       <img src="https://miro.medium.com/v2/resize:fit:1358/1*qqSD4DSJ-yKOWlHMpgWKBQ.png" style="width: 400px; border-radius: 30px; height: 200px;margin-left: 10px;">
+        </div>
+       <div>
+       <table class="tab1">
+                <th class="th1"><strong>Announcing Strategic<br> Investment from TPG</strong></th>
+                <th class="th2"><strong>Welcome to Rio Caraeff, our<br> new Chief Business Officer</strong></th>
+                <th class="th3"><strong> Get fluent with Spotify lyrics</strong></th>
+       </table>
+       </div>
+       <div>
+       <table class="tab2">
+
+                 <th class="th4"><p>Partnership Strengthens Musixmatch’s<br>Position and Drives Creator-Centric<br>Expansion Opportunities.</p></th>
+                 <th class="th5"><p>Caraeff will oversee all commercial,<br>activity across Musixmatch’s<br>businesses globally.</p></th>
+                 <th class="th6"><p>We are so excited to officially<br>announce that Musixmatch has been<br>chosen by Spotify to power their lyrics<br>expansion.</p></th>      
+    </table>
+</div>
+<div>
+    <table>
+        <th class="th7">Read more</th>
+        <th class="th8">Read more</th>
+        <th class="th9">Read more</th>
+    </table>
+</div>
+
+
+<main class="cent">
+    <div class="red">
+        <ul>
+            <li><h2 class="let">Let's talk</h2></li>
+            <li><p class="p3">We'd love to hear how we can help you<br>take your music experience to the next<br>level.</p></li>
+            <button class="get">Get in touch</button>
+        </ul>
+    </div>
+    <div class="grey">
+        <ul>
+            <li><h2 class="work"> Work with us</h2></li>
+            <li><p class="p4">Want to help us build products reaching<br>millions of music lovers worldwide? We’re<br>always on the lookout for talented people<br>to join our team.</p></li>
+        <button class="join">Join the band</button>
+        </ul>
+    </div>
+</main>
+<main class="down">
+    <div class="mus">
+    <ul>
+        <li><img class="image" src="data:image/png;base64,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"></li>
+        <li><img class="ama" src="https://images.ctfassets.net/j1fohgydbyek/60zTMXzcmIABIPCefUL5dI/436d14572f43a4218d6da80e1640fbc1/3b50dcca1ad03ac882e6a6604d60796a.png?w=1200&h=600"></li>
+        <select class="lang">
+                                <option >English</option>
+                                <option>Tamil</option>
+                                <option>Espanol</option>
+                                <option>Italiano</option>
+        </select>
+    </ul>
+</div>
+<div class="com">
+    <ul >
+        <li><h3>Company</h3></li><br>
+        <li>About us</li><br>
+        <li>People</li><br>
+        <li>Press</li><br>
+        <li>Contact</li><br>
+        <li>Blog</li><br>
+    </ul>
+</div>
+<div class="prod">
+    <ul>
+        <li><h3>Products</h3></li><br>
+        <li>For Music Creators</li><br>
+        <li>For Publishers</li><br>
+        <li>For Partners</li><br>
+        <li>For the Community</li><br>
+        <li>Podcast Transcriptions</li><br>
+    </ul>
+</div>
+<div class="comm">
+    <ul>
+        <li><h3>Community</h3></li><br>
+        <li>Overview</li><br>
+        <li>Guidelines</li><br>
+        <li>Become a Curator</li><br>
+        <li>Help Center</li><br>
+        <li>Ask the Community</li><br>
+        <li>Community Blog</li><br>
+    </ul>
+</div>
+</main>
+
+</body> 
+</html>
+ 
